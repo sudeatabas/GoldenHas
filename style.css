@@ -223,11 +223,11 @@ nav {
     }
 }
 
-.service_section .heading_container {
+.issues_section .heading_container {
     margin-bottom: 35px;
 }
 
-.service_section .box {
+.issues_section .box {
     margin: 10px;
     text-align: center;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
@@ -566,61 +566,64 @@ nav {
 	width: 50%;
 }
 
-.useful-links {
-    width: 20%;
-}
-
-.useful-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.useful-links ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-.useful-links ul li a:hover {
-    text-decoration: underline;
-}
-
 .footer_section {
     background-color: #343a40;
     color: #ffffff;
     text-align: center;
-    padding: 10px 0; 
-    margin: 0; 
+    padding: 10px 0;
+    margin: 0;
 }
 
-.footer_section .useful_links {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding: 0; 
-    margin: 0; 
+.footer-content {
+    display: inline-block; /* İçeriği kutuya alır */
+    text-align: center; /* Kutudaki içeriği ortalar */
+    width: 80%; /* İçeriğin genişliğini ayarlar, gerekirse değiştirin */
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: 0 auto; /* Merkezi hizalama */
 }
 
-.footer_section .useful_links a {
-    color: #007bff;
+.contact-info,
+.company-info {
+    display: inline-block; /* Yan yana dizmek için */
+    vertical-align: top; /* Üstten hizalama */
+    margin: 10px;
+}
+
+.contact-info {
+    width: 40%; /* Genişliği ayarla */
+}
+
+.company-info {
+    width: 40%; /* Genişliği ayarla */
+}
+
+.logo {
+    display: block; /* Logo ile metin arasındaki boşluğu kaldırır */
+    margin: 0 auto 10px; /* Logoyu ortalar ve alttan boşluk ekler */
+}
+
+.footer-text {
+    margin-top: 10px; /* Metin ile logo arasındaki boşluğu ayarlar */
+    font-size: 16px;
+    color: #fff; /* Metin rengi */
+}
+
+.follow-us a {
+    color: #fff;
+    margin: 0 5px;
     text-decoration: none;
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.footer_section .useful_links a:hover {
-    text-decoration: underline;
 }
 
 .footer_bottom {
     background-color: #001f54;
     color: #fff;
-    padding: 5px 0; 
-    font-size: 12px; 
-    margin: 0; 
-    line-height: 1; 
+    padding: 5px 0;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1;
 }
 
 footer p {
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
